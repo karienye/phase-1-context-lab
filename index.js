@@ -5,10 +5,41 @@ const  createEmployeeRecord = function (names, digits){
         titleField = names,
         payPerhour= digits,
          field = names,
-     timeInEvents = digits,
-    timeOutEvents = digits ]
+     timeInEvents = [],
+    timeOutEvents = [] ]
+    
     }
+const createEmployeeRecords = function (array){
+    let newArray ; 
+    for (i= 0; i<newEmployee.length; i++){
+return newArray;
+}
+}
 
+const createTimeInEvent = function (type, hour, date){
+
+
+}
+
+const createTimeOutEvent = function (type, hour, date){
+
+}
+
+const hoursWorkedOnDate = function (){
+
+}
+
+const wagesEarnedOnDate = function (){
+
+}
+
+const findEmployeeByFirstName = function (srcArray, firstName){
+
+}
+
+const calculatePayroll = function (createEmployeeRecords){
+
+}
    // newEmployee.forEach(element => console.log(element));
 
 /*let filledArray = new Array(10)
