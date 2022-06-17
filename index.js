@@ -1,5 +1,19 @@
 /* Your Code Here */
+const  createEmployeeRecord = function (names, digits){ 
+       const newEmployee = [ firstName = names,
+        familyName= names,
+        titleField = names,
+        payPerhour= digits,
+         field = names,
+     timeInEvents = digits,
+    timeOutEvents = digits ]
+    }
 
+   // newEmployee.forEach(element => console.log(element));
+
+/*let filledArray = new Array(10)
+    .fill(null)
+    .map(()=> ({'hello':'goodbye'}))*/ 
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
@@ -18,6 +32,6 @@ const allWagesFor = function () {
         return memo + wagesEarnedOnDate.call(this, d)
     }.bind(this), 0) // <== Hm, why did we need to add bind() there? We'll discuss soon!
 
-    return payable
+    return payable 
 }
 
